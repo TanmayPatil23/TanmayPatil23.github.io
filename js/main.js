@@ -246,7 +246,7 @@
   })();
 })(jQuery);
 
-const isUnderMaintainence = true;
+const isUnderMaintainence = false;
 const html = document.querySelector("html");
 if (isUnderMaintainence) {
   const text = document.createElement("h1");

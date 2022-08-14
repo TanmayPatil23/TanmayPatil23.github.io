@@ -2585,6 +2585,9 @@ input::-moz-focus-inner {
 .s-footer {
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: -webkit-linear-gradient(
     left,
     hsl(240, 20%, 69%),
@@ -2599,10 +2602,10 @@ input::-moz-focus-inner {
   background: linear-gradient(right, hsl(240, 20%, 69%), rgb(199, 245, 242));
   width: auto;
   height: fit-content;
-  flex-direction: column;
+  /* flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding-top: var(--vspace-2);
+  align-items: center; */
+  /* padding-top: var(--vspace-2); */
   /* padding-bottom: var(--vspace-4); */
   color: white;
 }
